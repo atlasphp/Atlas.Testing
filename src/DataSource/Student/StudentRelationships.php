@@ -2,10 +2,10 @@
 namespace Atlas\Testing\DataSource\Student;
 
 use Atlas\Mapper\MapperRelationships;
-use Atlas\Mapper\DataSource\Course\CourseMapper;
-use Atlas\Mapper\DataSource\Degree\DegreeMapper;
-use Atlas\Mapper\DataSource\Gpa\GpaMapper;
-use Atlas\Mapper\DataSource\Enrollment\EnrollmentMapper;
+use Atlas\Testing\DataSource\Course\CourseMapper;
+use Atlas\Testing\DataSource\Degree\DegreeMapper;
+use Atlas\Testing\DataSource\Gpa\GpaMapper;
+use Atlas\Testing\DataSource\Enrollment\EnrollmentMapper;
 
 class StudentRelationships extends MapperRelationships
 {

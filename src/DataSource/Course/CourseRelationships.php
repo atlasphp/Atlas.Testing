@@ -2,8 +2,8 @@
 namespace Atlas\Testing\DataSource\Course;
 
 use Atlas\Mapper\MapperRelationships;
-use Atlas\Mapper\DataSource\Enrollment\EnrollmentMapper;
-use Atlas\Mapper\DataSource\Student\StudentMapper;
+use Atlas\Testing\DataSource\Enrollment\EnrollmentMapper;
+use Atlas\Testing\DataSource\Student\StudentMapper;
 
 class CourseRelationships extends MapperRelationships
 {

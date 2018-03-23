@@ -2,7 +2,7 @@
 namespace Atlas\Testing\DataSource\Reply;
 
 use Atlas\Mapper\MapperRelationships;
-use Atlas\Mapper\DataSource\Author\AuthorMapper;
+use Atlas\Testing\DataSource\Author\AuthorMapper;
 
 class ReplyRelationships extends MapperRelationships
 {

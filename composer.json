@@ -1,7 +1,7 @@
 {
     "name": "atlas/testing",
     "type": "library",
-    "description": "Common support tools for Atlas tests.",
+    "description": "Support for testing Atlas packages.",
     "homepage": "http://github.com/atlasphp/Atlas.Testing",
     "license": "MIT",
     "authors": [

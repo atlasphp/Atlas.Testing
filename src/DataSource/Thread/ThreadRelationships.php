@@ -2,10 +2,10 @@
 namespace Atlas\Testing\DataSource\Thread;
 
 use Atlas\Mapper\MapperRelationships;
-use Atlas\Mapper\DataSource\Author\AuthorMapper;
-use Atlas\Mapper\DataSource\Summary\SummaryMapper;
-use Atlas\Mapper\DataSource\Reply\ReplyMapper;
-use Atlas\Mapper\DataSource\Tagging\TaggingMapper;
+use Atlas\Testing\DataSource\Author\AuthorMapper;
+use Atlas\Testing\DataSource\Summary\SummaryMapper;
+use Atlas\Testing\DataSource\Reply\ReplyMapper;
+use Atlas\Testing\DataSource\Tagging\TaggingMapper;
 
 class ThreadRelationships extends MapperRelationships
 {

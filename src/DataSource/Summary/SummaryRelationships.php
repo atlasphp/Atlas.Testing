@@ -2,7 +2,7 @@
 namespace Atlas\Testing\DataSource\Summary;
 
 use Atlas\Mapper\MapperRelationships;
-use Atlas\Mapper\DataSource\Thread\ThreadMapper;
+use Atlas\Testing\DataSource\Thread\ThreadMapper;
 
 class SummaryRelationships extends MapperRelationships
 {

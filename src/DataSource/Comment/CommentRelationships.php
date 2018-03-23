@@ -2,9 +2,9 @@
 namespace Atlas\Testing\DataSource\Comment;
 
 use Atlas\Mapper\MapperRelationships;
-use Atlas\Mapper\DataSource\Page\PageMapper;
-use Atlas\Mapper\DataSource\Post\PostMapper;
-use Atlas\Mapper\DataSource\Video\VideoMapper;
+use Atlas\Testing\DataSource\Page\PageMapper;
+use Atlas\Testing\DataSource\Post\PostMapper;
+use Atlas\Testing\DataSource\Video\VideoMapper;
 
 class CommentRelationships extends MapperRelationships
 {

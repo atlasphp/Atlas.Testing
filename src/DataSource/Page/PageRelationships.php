@@ -2,7 +2,7 @@
 namespace Atlas\Testing\DataSource\Page;
 
 use Atlas\Mapper\MapperRelationships;
-use Atlas\Mapper\DataSource\Comment\CommentMapper;
+use Atlas\Testing\DataSource\Comment\CommentMapper;
 
 class PageRelationships extends MapperRelationships
 {

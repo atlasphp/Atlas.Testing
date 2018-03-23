@@ -2,7 +2,7 @@
 namespace Atlas\Testing\DataSource\Post;
 
 use Atlas\Mapper\MapperRelationships;
-use Atlas\Mapper\DataSource\Comment\CommentMapper;
+use Atlas\Testing\DataSource\Comment\CommentMapper;
 
 class PostRelationships extends MapperRelationships
 {
