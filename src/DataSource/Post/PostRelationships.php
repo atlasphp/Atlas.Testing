@@ -1,0 +1,15 @@
+<?php
+namespace Atlas\Testing\DataSource\Post;
+
+use Atlas\Mapper\MapperRelationships;
+use Atlas\Mapper\DataSource\Comment\CommentMapper;
+
+class PostRelationships extends MapperRelationships
+{
+    protected function setRelated()
+    {
+        $this->oneToMany('comments', CommentMapper::CLASS)
+            ->on(['post_id' => 'related_id'])
+            ->where('related_type = ', 'post');
+    }
+}

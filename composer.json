@@ -1,0 +1,33 @@
+{
+    "name": "atlas/testing",
+    "type": "library",
+    "description": "Common support tools for Atlas tests.",
+    "homepage": "http://github.com/atlasphp/Atlas.Testing",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Atlas Contributors",
+            "homepage": "https://github.com/atlasphp/Atlas.Testing/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Atlas\\Testing\\": "src/"
+        }
+    },
+    "require-dev": {
+        "pds/skeleton": "~1.0",
+        "producer/githooks": "0.x@dev",
+        "atlas/skeleton": "*@dev"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../skeleton/"
+        }
+    ],
+    "minimum-stability": "dev"
+}
