@@ -8,7 +8,7 @@ use Atlas\Mapper\Mapper;
  */
 class SummaryMapper extends Mapper
 {
-    protected function setRelated()
+    protected function define()
     {
     }
 }

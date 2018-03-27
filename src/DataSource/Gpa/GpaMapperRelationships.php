@@ -3,9 +3,9 @@ namespace Atlas\Testing\DataSource\Gpa;
 
 use Atlas\Mapper\MapperRelationships;
 
-class GpaRelationships extends MapperRelationships
+class GpaMapperRelationships extends MapperRelationships
 {
-    protected function setRelated()
+    protected function define()
     {
     }
 }

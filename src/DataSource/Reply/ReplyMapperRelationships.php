@@ -2,10 +2,12 @@
 namespace Atlas\Testing\DataSource\Reply;
 
 use Atlas\Mapper\MapperRelationships;
+use Atlas\Testing\DataSource\Author\AuthorMapper;
 
-class ReplyRelationships extends MapperRelationships
+class ReplyMapperRelationships extends MapperRelationships
 {
-    protected function setRelated()
+    protected function define()
     {
+        $this->manyToOne('author', AuthorMapper::CLASS);
     }
 }

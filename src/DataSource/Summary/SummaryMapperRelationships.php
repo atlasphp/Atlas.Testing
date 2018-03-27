@@ -2,10 +2,12 @@
 namespace Atlas\Testing\DataSource\Summary;
 
 use Atlas\Mapper\MapperRelationships;
+use Atlas\Testing\DataSource\Thread\ThreadMapper;
 
-class SummaryRelationships extends MapperRelationships
+class SummaryMapperRelationships extends MapperRelationships
 {
-    protected function setRelated()
+    protected function define()
     {
+        $this->oneToOne('thread', ThreadMapper::CLASS);
     }
 }

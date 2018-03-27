@@ -8,7 +8,7 @@ use Atlas\Mapper\Mapper;
  */
 class TagMapper extends Mapper
 {
-    protected function setRelated()
+    protected function define()
     {
     }
 }

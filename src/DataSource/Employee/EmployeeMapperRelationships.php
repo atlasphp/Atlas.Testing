@@ -3,9 +3,9 @@ namespace Atlas\Testing\DataSource\Employee;
 
 use Atlas\Mapper\MapperRelationships;
 
-class EmployeeRelationships extends MapperRelationships
+class EmployeeMapperRelationships extends MapperRelationships
 {
-    protected function setRelated()
+    protected function define()
     {
     }
 }

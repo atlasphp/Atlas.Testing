@@ -2,10 +2,12 @@
 namespace Atlas\Testing\DataSource\Tag;
 
 use Atlas\Mapper\MapperRelationships;
+use Atlas\Testing\DataSource\Tagging\TaggingMapper;
 
-class TagRelationships extends MapperRelationships
+class TagMapperRelationships extends MapperRelationships
 {
-    protected function setRelated()
+    protected function define()
     {
+        $this->oneToMany('taggings', TaggingMapper::CLASS);
     }
 }
