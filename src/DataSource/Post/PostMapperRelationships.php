@@ -8,8 +8,7 @@ class PostMapperRelationships extends MapperRelationships
 {
     protected function define()
     {
-        $this->oneToMany('comments', CommentMapper::CLASS)
-            ->on(['post_id' => 'related_id'])
+        $this->oneToMany('comments', CommentMapper::CLASS, ['post_id' => 'related_id'])
             ->where('related_type = ', 'post');
     }
 }
