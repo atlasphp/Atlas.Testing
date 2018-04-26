@@ -32,6 +32,9 @@ class SqliteFixture
         $this->videos();
         $this->comments();
 
+        $this->bidifoos();
+        $this->bidibars();
+
         // return the connection used
         return $this->connection;
     }
@@ -271,5 +274,25 @@ class SqliteFixture
                 ");
             }
         }
+    }
+
+    public function bidifoos()
+    {
+        $this->connection->query("CREATE TABLE bidifoos (
+            bidifoo_id INTEGER PRIMARY KEY AUTOINCREMENT,
+            bidibar_id INTEGER,
+            name VARCHAR(10)
+        )");
+    }
+
+    public function bidibars()
+    {
+        $this->connection->query("CREATE TABLE bidibars (
+            bidibar_id INTEGER PRIMARY KEY AUTOINCREMENT,
+            bidifoo_id INTEGER,
+            name VARCHAR(10)
+        )");
+
+        $this->connection->perform("INSERT INTO bidibars (name) VALUES ('prebar')");
     }
 }
