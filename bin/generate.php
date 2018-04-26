@@ -2,6 +2,7 @@
 namespace Atlas\Testing;
 
 use Atlas\Pdo\Connection;
+use Atlas\Testing\DataSource\SqliteFixture;
 
 require dirname(__DIR__) . '/vendor/autoload.php';
 
