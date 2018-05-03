@@ -1,9 +1,11 @@
 <?php
+declare(strict_types=1);
+
 namespace Atlas\Testing\DataSource\Tag;
 
-/**
- * @inheritdoc
- */
-class TagRecord extends TagFields
+use Atlas\Mapper\Record;
+
+class TagRecord extends Record
 {
+    use TagFields;
 }

@@ -1,9 +1,11 @@
 <?php
+declare(strict_types=1);
+
 namespace Atlas\Testing\CompositeDataSource\Student;
 
-/**
- * @inheritdoc
- */
-class StudentRecord extends StudentFields
+use Atlas\Mapper\Record;
+
+class StudentRecord extends Record
 {
+    use StudentFields;
 }

@@ -1,6 +1,11 @@
 <?php
+declare(strict_types=1);
+
 namespace Atlas\Testing\DataSource\Bidifoo;
 
-class BidifooRecord extends BidifooFields
+use Atlas\Mapper\Record;
+
+class BidifooRecord extends Record
 {
+    use BidifooFields;
 }

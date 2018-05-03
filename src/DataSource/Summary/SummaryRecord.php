@@ -1,9 +1,11 @@
 <?php
+declare(strict_types=1);
+
 namespace Atlas\Testing\DataSource\Summary;
 
-/**
- * @inheritdoc
- */
-class SummaryRecord extends SummaryFields
+use Atlas\Mapper\Record;
+
+class SummaryRecord extends Record
 {
+    use SummaryFields;
 }

@@ -1,9 +1,11 @@
 <?php
+declare(strict_types=1);
+
 namespace Atlas\Testing\DataSource\Employee;
 
-/**
- * @inheritdoc
- */
-class EmployeeRecord extends EmployeeFields
+use Atlas\Mapper\Record;
+
+class EmployeeRecord extends Record
 {
+    use EmployeeFields;
 }

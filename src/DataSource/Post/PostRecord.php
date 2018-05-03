@@ -1,9 +1,11 @@
 <?php
+declare(strict_types=1);
+
 namespace Atlas\Testing\DataSource\Post;
 
-/**
- * @inheritdoc
- */
-class PostRecord extends PostFields
+use Atlas\Mapper\Record;
+
+class PostRecord extends Record
 {
+    use PostFields;
 }

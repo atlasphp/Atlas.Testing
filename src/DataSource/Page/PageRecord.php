@@ -1,9 +1,11 @@
 <?php
+declare(strict_types=1);
+
 namespace Atlas\Testing\DataSource\Page;
 
-/**
- * @inheritdoc
- */
-class PageRecord extends PageFields
+use Atlas\Mapper\Record;
+
+class PageRecord extends Record
 {
+    use PageFields;
 }
