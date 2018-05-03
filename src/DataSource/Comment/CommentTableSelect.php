@@ -6,8 +6,8 @@ namespace Atlas\Testing\DataSource\Comment;
 use Atlas\Table\TableSelect;
 
 /**
- * @method CommentTableRow|null fetchRow()
- * @method CommentTableRow[] fetchRows()
+ * @method CommentRow|null fetchRow()
+ * @method CommentRow[] fetchRows()
  */
 class CommentTableSelect extends TableSelect
 {

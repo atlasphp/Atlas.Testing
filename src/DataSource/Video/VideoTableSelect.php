@@ -6,8 +6,8 @@ namespace Atlas\Testing\DataSource\Video;
 use Atlas\Table\TableSelect;
 
 /**
- * @method VideoTableRow|null fetchRow()
- * @method VideoTableRow[] fetchRows()
+ * @method VideoRow|null fetchRow()
+ * @method VideoRow[] fetchRows()
  */
 class VideoTableSelect extends TableSelect
 {

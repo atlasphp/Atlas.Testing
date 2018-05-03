@@ -9,11 +9,11 @@ namespace Atlas\Testing\DataSource\Bidibar;
 use Atlas\Table\Table;
 
 /**
- * @method BidibarTableRow|null fetchRow($primaryVal)
- * @method BidibarTableRow[] fetchRows(array $primaryVals)
+ * @method BidibarRow|null fetchRow($primaryVal)
+ * @method BidibarRow[] fetchRows(array $primaryVals)
  * @method BidibarTableSelect select(array $whereEquals = [])
- * @method BidibarTableRow newRow(array $cols = [])
- * @method BidibarTableRow newSelectedRow(array $cols)
+ * @method BidibarRow newRow(array $cols = [])
+ * @method BidibarRow newSelectedRow(array $cols)
  */
 class BidibarTable extends Table
 {

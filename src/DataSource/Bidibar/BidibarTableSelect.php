@@ -6,8 +6,8 @@ namespace Atlas\Testing\DataSource\Bidibar;
 use Atlas\Table\TableSelect;
 
 /**
- * @method BidibarTableRow|null fetchRow()
- * @method BidibarTableRow[] fetchRows()
+ * @method BidibarRow|null fetchRow()
+ * @method BidibarRow[] fetchRows()
  */
 class BidibarTableSelect extends TableSelect
 {

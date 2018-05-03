@@ -9,11 +9,11 @@ namespace Atlas\Testing\DataSource\Bidifoo;
 use Atlas\Table\Table;
 
 /**
- * @method BidifooTableRow|null fetchRow($primaryVal)
- * @method BidifooTableRow[] fetchRows(array $primaryVals)
+ * @method BidifooRow|null fetchRow($primaryVal)
+ * @method BidifooRow[] fetchRows(array $primaryVals)
  * @method BidifooTableSelect select(array $whereEquals = [])
- * @method BidifooTableRow newRow(array $cols = [])
- * @method BidifooTableRow newSelectedRow(array $cols)
+ * @method BidifooRow newRow(array $cols = [])
+ * @method BidifooRow newSelectedRow(array $cols)
  */
 class BidifooTable extends Table
 {

@@ -6,8 +6,8 @@ namespace Atlas\Testing\DataSource\Reply;
 use Atlas\Table\TableSelect;
 
 /**
- * @method ReplyTableRow|null fetchRow()
- * @method ReplyTableRow[] fetchRows()
+ * @method ReplyRow|null fetchRow()
+ * @method ReplyRow[] fetchRows()
  */
 class ReplyTableSelect extends TableSelect
 {

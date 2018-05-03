@@ -6,8 +6,8 @@ namespace Atlas\Testing\CompositeDataSource\Course;
 use Atlas\Table\TableSelect;
 
 /**
- * @method CourseTableRow|null fetchRow()
- * @method CourseTableRow[] fetchRows()
+ * @method CourseRow|null fetchRow()
+ * @method CourseRow[] fetchRows()
  */
 class CourseTableSelect extends TableSelect
 {

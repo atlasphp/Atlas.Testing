@@ -9,11 +9,11 @@ namespace Atlas\Testing\DataSource\Employee;
 use Atlas\Table\Table;
 
 /**
- * @method EmployeeTableRow|null fetchRow($primaryVal)
- * @method EmployeeTableRow[] fetchRows(array $primaryVals)
+ * @method EmployeeRow|null fetchRow($primaryVal)
+ * @method EmployeeRow[] fetchRows(array $primaryVals)
  * @method EmployeeTableSelect select(array $whereEquals = [])
- * @method EmployeeTableRow newRow(array $cols = [])
- * @method EmployeeTableRow newSelectedRow(array $cols)
+ * @method EmployeeRow newRow(array $cols = [])
+ * @method EmployeeRow newSelectedRow(array $cols)
  */
 class EmployeeTable extends Table
 {

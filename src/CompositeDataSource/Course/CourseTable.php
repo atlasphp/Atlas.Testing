@@ -9,11 +9,11 @@ namespace Atlas\Testing\CompositeDataSource\Course;
 use Atlas\Table\Table;
 
 /**
- * @method CourseTableRow|null fetchRow($primaryVal)
- * @method CourseTableRow[] fetchRows(array $primaryVals)
+ * @method CourseRow|null fetchRow($primaryVal)
+ * @method CourseRow[] fetchRows(array $primaryVals)
  * @method CourseTableSelect select(array $whereEquals = [])
- * @method CourseTableRow newRow(array $cols = [])
- * @method CourseTableRow newSelectedRow(array $cols)
+ * @method CourseRow newRow(array $cols = [])
+ * @method CourseRow newSelectedRow(array $cols)
  */
 class CourseTable extends Table
 {

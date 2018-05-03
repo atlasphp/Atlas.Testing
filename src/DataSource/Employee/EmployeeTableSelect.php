@@ -6,8 +6,8 @@ namespace Atlas\Testing\DataSource\Employee;
 use Atlas\Table\TableSelect;
 
 /**
- * @method EmployeeTableRow|null fetchRow()
- * @method EmployeeTableRow[] fetchRows()
+ * @method EmployeeRow|null fetchRow()
+ * @method EmployeeRow[] fetchRows()
  */
 class EmployeeTableSelect extends TableSelect
 {

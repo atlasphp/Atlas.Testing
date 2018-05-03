@@ -9,11 +9,11 @@ namespace Atlas\Testing\CompositeDataSource\Enrollment;
 use Atlas\Table\Table;
 
 /**
- * @method EnrollmentTableRow|null fetchRow($primaryVal)
- * @method EnrollmentTableRow[] fetchRows(array $primaryVals)
+ * @method EnrollmentRow|null fetchRow($primaryVal)
+ * @method EnrollmentRow[] fetchRows(array $primaryVals)
  * @method EnrollmentTableSelect select(array $whereEquals = [])
- * @method EnrollmentTableRow newRow(array $cols = [])
- * @method EnrollmentTableRow newSelectedRow(array $cols)
+ * @method EnrollmentRow newRow(array $cols = [])
+ * @method EnrollmentRow newSelectedRow(array $cols)
  */
 class EnrollmentTable extends Table
 {

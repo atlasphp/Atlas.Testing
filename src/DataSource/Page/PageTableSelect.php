@@ -6,8 +6,8 @@ namespace Atlas\Testing\DataSource\Page;
 use Atlas\Table\TableSelect;
 
 /**
- * @method PageTableRow|null fetchRow()
- * @method PageTableRow[] fetchRows()
+ * @method PageRow|null fetchRow()
+ * @method PageRow[] fetchRows()
  */
 class PageTableSelect extends TableSelect
 {

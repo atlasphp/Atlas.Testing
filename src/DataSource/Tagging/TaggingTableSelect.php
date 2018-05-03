@@ -6,8 +6,8 @@ namespace Atlas\Testing\DataSource\Tagging;
 use Atlas\Table\TableSelect;
 
 /**
- * @method TaggingTableRow|null fetchRow()
- * @method TaggingTableRow[] fetchRows()
+ * @method TaggingRow|null fetchRow()
+ * @method TaggingRow[] fetchRows()
  */
 class TaggingTableSelect extends TableSelect
 {

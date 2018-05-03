@@ -9,11 +9,11 @@ namespace Atlas\Testing\DataSource\Page;
 use Atlas\Table\Table;
 
 /**
- * @method PageTableRow|null fetchRow($primaryVal)
- * @method PageTableRow[] fetchRows(array $primaryVals)
+ * @method PageRow|null fetchRow($primaryVal)
+ * @method PageRow[] fetchRows(array $primaryVals)
  * @method PageTableSelect select(array $whereEquals = [])
- * @method PageTableRow newRow(array $cols = [])
- * @method PageTableRow newSelectedRow(array $cols)
+ * @method PageRow newRow(array $cols = [])
+ * @method PageRow newSelectedRow(array $cols)
  */
 class PageTable extends Table
 {

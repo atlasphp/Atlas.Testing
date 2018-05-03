@@ -9,11 +9,11 @@ namespace Atlas\Testing\DataSource\Reply;
 use Atlas\Table\Table;
 
 /**
- * @method ReplyTableRow|null fetchRow($primaryVal)
- * @method ReplyTableRow[] fetchRows(array $primaryVals)
+ * @method ReplyRow|null fetchRow($primaryVal)
+ * @method ReplyRow[] fetchRows(array $primaryVals)
  * @method ReplyTableSelect select(array $whereEquals = [])
- * @method ReplyTableRow newRow(array $cols = [])
- * @method ReplyTableRow newSelectedRow(array $cols)
+ * @method ReplyRow newRow(array $cols = [])
+ * @method ReplyRow newSelectedRow(array $cols)
  */
 class ReplyTable extends Table
 {

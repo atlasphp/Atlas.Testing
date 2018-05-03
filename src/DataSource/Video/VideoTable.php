@@ -9,11 +9,11 @@ namespace Atlas\Testing\DataSource\Video;
 use Atlas\Table\Table;
 
 /**
- * @method VideoTableRow|null fetchRow($primaryVal)
- * @method VideoTableRow[] fetchRows(array $primaryVals)
+ * @method VideoRow|null fetchRow($primaryVal)
+ * @method VideoRow[] fetchRows(array $primaryVals)
  * @method VideoTableSelect select(array $whereEquals = [])
- * @method VideoTableRow newRow(array $cols = [])
- * @method VideoTableRow newSelectedRow(array $cols)
+ * @method VideoRow newRow(array $cols = [])
+ * @method VideoRow newSelectedRow(array $cols)
  */
 class VideoTable extends Table
 {

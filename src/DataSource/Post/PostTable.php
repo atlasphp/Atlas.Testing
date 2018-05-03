@@ -9,11 +9,11 @@ namespace Atlas\Testing\DataSource\Post;
 use Atlas\Table\Table;
 
 /**
- * @method PostTableRow|null fetchRow($primaryVal)
- * @method PostTableRow[] fetchRows(array $primaryVals)
+ * @method PostRow|null fetchRow($primaryVal)
+ * @method PostRow[] fetchRows(array $primaryVals)
  * @method PostTableSelect select(array $whereEquals = [])
- * @method PostTableRow newRow(array $cols = [])
- * @method PostTableRow newSelectedRow(array $cols)
+ * @method PostRow newRow(array $cols = [])
+ * @method PostRow newSelectedRow(array $cols)
  */
 class PostTable extends Table
 {

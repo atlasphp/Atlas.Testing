@@ -9,11 +9,11 @@ namespace Atlas\Testing\DataSource\Tag;
 use Atlas\Table\Table;
 
 /**
- * @method TagTableRow|null fetchRow($primaryVal)
- * @method TagTableRow[] fetchRows(array $primaryVals)
+ * @method TagRow|null fetchRow($primaryVal)
+ * @method TagRow[] fetchRows(array $primaryVals)
  * @method TagTableSelect select(array $whereEquals = [])
- * @method TagTableRow newRow(array $cols = [])
- * @method TagTableRow newSelectedRow(array $cols)
+ * @method TagRow newRow(array $cols = [])
+ * @method TagRow newSelectedRow(array $cols)
  */
 class TagTable extends Table
 {

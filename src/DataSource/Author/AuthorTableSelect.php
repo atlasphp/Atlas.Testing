@@ -6,8 +6,8 @@ namespace Atlas\Testing\DataSource\Author;
 use Atlas\Table\TableSelect;
 
 /**
- * @method AuthorTableRow|null fetchRow()
- * @method AuthorTableRow[] fetchRows()
+ * @method AuthorRow|null fetchRow()
+ * @method AuthorRow[] fetchRows()
  */
 class AuthorTableSelect extends TableSelect
 {

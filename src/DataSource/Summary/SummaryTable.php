@@ -9,11 +9,11 @@ namespace Atlas\Testing\DataSource\Summary;
 use Atlas\Table\Table;
 
 /**
- * @method SummaryTableRow|null fetchRow($primaryVal)
- * @method SummaryTableRow[] fetchRows(array $primaryVals)
+ * @method SummaryRow|null fetchRow($primaryVal)
+ * @method SummaryRow[] fetchRows(array $primaryVals)
  * @method SummaryTableSelect select(array $whereEquals = [])
- * @method SummaryTableRow newRow(array $cols = [])
- * @method SummaryTableRow newSelectedRow(array $cols)
+ * @method SummaryRow newRow(array $cols = [])
+ * @method SummaryRow newSelectedRow(array $cols)
  */
 class SummaryTable extends Table
 {

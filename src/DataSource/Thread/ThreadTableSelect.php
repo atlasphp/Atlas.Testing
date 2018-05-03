@@ -6,8 +6,8 @@ namespace Atlas\Testing\DataSource\Thread;
 use Atlas\Table\TableSelect;
 
 /**
- * @method ThreadTableRow|null fetchRow()
- * @method ThreadTableRow[] fetchRows()
+ * @method ThreadRow|null fetchRow()
+ * @method ThreadRow[] fetchRows()
  */
 class ThreadTableSelect extends TableSelect
 {

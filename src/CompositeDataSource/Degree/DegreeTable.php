@@ -9,11 +9,11 @@ namespace Atlas\Testing\CompositeDataSource\Degree;
 use Atlas\Table\Table;
 
 /**
- * @method DegreeTableRow|null fetchRow($primaryVal)
- * @method DegreeTableRow[] fetchRows(array $primaryVals)
+ * @method DegreeRow|null fetchRow($primaryVal)
+ * @method DegreeRow[] fetchRows(array $primaryVals)
  * @method DegreeTableSelect select(array $whereEquals = [])
- * @method DegreeTableRow newRow(array $cols = [])
- * @method DegreeTableRow newSelectedRow(array $cols)
+ * @method DegreeRow newRow(array $cols = [])
+ * @method DegreeRow newSelectedRow(array $cols)
  */
 class DegreeTable extends Table
 {

@@ -9,11 +9,11 @@ namespace Atlas\Testing\DataSource\Tagging;
 use Atlas\Table\Table;
 
 /**
- * @method TaggingTableRow|null fetchRow($primaryVal)
- * @method TaggingTableRow[] fetchRows(array $primaryVals)
+ * @method TaggingRow|null fetchRow($primaryVal)
+ * @method TaggingRow[] fetchRows(array $primaryVals)
  * @method TaggingTableSelect select(array $whereEquals = [])
- * @method TaggingTableRow newRow(array $cols = [])
- * @method TaggingTableRow newSelectedRow(array $cols)
+ * @method TaggingRow newRow(array $cols = [])
+ * @method TaggingRow newSelectedRow(array $cols)
  */
 class TaggingTable extends Table
 {

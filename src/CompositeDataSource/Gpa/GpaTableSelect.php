@@ -6,8 +6,8 @@ namespace Atlas\Testing\CompositeDataSource\Gpa;
 use Atlas\Table\TableSelect;
 
 /**
- * @method GpaTableRow|null fetchRow()
- * @method GpaTableRow[] fetchRows()
+ * @method GpaRow|null fetchRow()
+ * @method GpaRow[] fetchRows()
  */
 class GpaTableSelect extends TableSelect
 {

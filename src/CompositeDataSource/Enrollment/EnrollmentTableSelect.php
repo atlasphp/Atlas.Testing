@@ -6,8 +6,8 @@ namespace Atlas\Testing\CompositeDataSource\Enrollment;
 use Atlas\Table\TableSelect;
 
 /**
- * @method EnrollmentTableRow|null fetchRow()
- * @method EnrollmentTableRow[] fetchRows()
+ * @method EnrollmentRow|null fetchRow()
+ * @method EnrollmentRow[] fetchRows()
  */
 class EnrollmentTableSelect extends TableSelect
 {

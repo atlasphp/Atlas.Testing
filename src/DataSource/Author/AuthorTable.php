@@ -9,11 +9,11 @@ namespace Atlas\Testing\DataSource\Author;
 use Atlas\Table\Table;
 
 /**
- * @method AuthorTableRow|null fetchRow($primaryVal)
- * @method AuthorTableRow[] fetchRows(array $primaryVals)
+ * @method AuthorRow|null fetchRow($primaryVal)
+ * @method AuthorRow[] fetchRows(array $primaryVals)
  * @method AuthorTableSelect select(array $whereEquals = [])
- * @method AuthorTableRow newRow(array $cols = [])
- * @method AuthorTableRow newSelectedRow(array $cols)
+ * @method AuthorRow newRow(array $cols = [])
+ * @method AuthorRow newSelectedRow(array $cols)
  */
 class AuthorTable extends Table
 {

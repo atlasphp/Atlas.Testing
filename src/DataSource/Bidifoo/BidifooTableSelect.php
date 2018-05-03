@@ -6,8 +6,8 @@ namespace Atlas\Testing\DataSource\Bidifoo;
 use Atlas\Table\TableSelect;
 
 /**
- * @method BidifooTableRow|null fetchRow()
- * @method BidifooTableRow[] fetchRows()
+ * @method BidifooRow|null fetchRow()
+ * @method BidifooRow[] fetchRows()
  */
 class BidifooTableSelect extends TableSelect
 {

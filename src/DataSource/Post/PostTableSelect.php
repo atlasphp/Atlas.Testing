@@ -6,8 +6,8 @@ namespace Atlas\Testing\DataSource\Post;
 use Atlas\Table\TableSelect;
 
 /**
- * @method PostTableRow|null fetchRow()
- * @method PostTableRow[] fetchRows()
+ * @method PostRow|null fetchRow()
+ * @method PostRow[] fetchRows()
  */
 class PostTableSelect extends TableSelect
 {

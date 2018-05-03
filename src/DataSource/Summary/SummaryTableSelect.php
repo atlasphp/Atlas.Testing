@@ -6,8 +6,8 @@ namespace Atlas\Testing\DataSource\Summary;
 use Atlas\Table\TableSelect;
 
 /**
- * @method SummaryTableRow|null fetchRow()
- * @method SummaryTableRow[] fetchRows()
+ * @method SummaryRow|null fetchRow()
+ * @method SummaryRow[] fetchRows()
  */
 class SummaryTableSelect extends TableSelect
 {

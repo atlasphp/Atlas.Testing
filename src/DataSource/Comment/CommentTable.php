@@ -9,11 +9,11 @@ namespace Atlas\Testing\DataSource\Comment;
 use Atlas\Table\Table;
 
 /**
- * @method CommentTableRow|null fetchRow($primaryVal)
- * @method CommentTableRow[] fetchRows(array $primaryVals)
+ * @method CommentRow|null fetchRow($primaryVal)
+ * @method CommentRow[] fetchRows(array $primaryVals)
  * @method CommentTableSelect select(array $whereEquals = [])
- * @method CommentTableRow newRow(array $cols = [])
- * @method CommentTableRow newSelectedRow(array $cols)
+ * @method CommentRow newRow(array $cols = [])
+ * @method CommentRow newSelectedRow(array $cols)
  */
 class CommentTable extends Table
 {

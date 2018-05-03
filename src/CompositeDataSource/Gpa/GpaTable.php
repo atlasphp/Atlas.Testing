@@ -9,11 +9,11 @@ namespace Atlas\Testing\CompositeDataSource\Gpa;
 use Atlas\Table\Table;
 
 /**
- * @method GpaTableRow|null fetchRow($primaryVal)
- * @method GpaTableRow[] fetchRows(array $primaryVals)
+ * @method GpaRow|null fetchRow($primaryVal)
+ * @method GpaRow[] fetchRows(array $primaryVals)
  * @method GpaTableSelect select(array $whereEquals = [])
- * @method GpaTableRow newRow(array $cols = [])
- * @method GpaTableRow newSelectedRow(array $cols)
+ * @method GpaRow newRow(array $cols = [])
+ * @method GpaRow newSelectedRow(array $cols)
  */
 class GpaTable extends Table
 {

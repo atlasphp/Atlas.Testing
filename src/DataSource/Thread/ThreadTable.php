@@ -9,11 +9,11 @@ namespace Atlas\Testing\DataSource\Thread;
 use Atlas\Table\Table;
 
 /**
- * @method ThreadTableRow|null fetchRow($primaryVal)
- * @method ThreadTableRow[] fetchRows(array $primaryVals)
+ * @method ThreadRow|null fetchRow($primaryVal)
+ * @method ThreadRow[] fetchRows(array $primaryVals)
  * @method ThreadTableSelect select(array $whereEquals = [])
- * @method ThreadTableRow newRow(array $cols = [])
- * @method ThreadTableRow newSelectedRow(array $cols)
+ * @method ThreadRow newRow(array $cols = [])
+ * @method ThreadRow newSelectedRow(array $cols)
  */
 class ThreadTable extends Table
 {
