@@ -5,6 +5,9 @@ namespace Atlas\Testing\DataSource\Page;
 
 use Atlas\Mapper\Record;
 
+/**
+ * @method PageRow getRow()
+ */
 class PageRecord extends Record
 {
     use PageFields;
