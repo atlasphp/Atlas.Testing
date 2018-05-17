@@ -9,6 +9,8 @@ namespace Atlas\Testing\DataSource\Author;
 /**
  * @property mixed $author_id INTEGER
  * @property mixed $name VARCHAR(10) NOT NULL
+ * @property null|\Atlas\Testing\DataSource\Reply\ReplyRecordSet $replies
+ * @property null|\Atlas\Testing\DataSource\Thread\ThreadRecordSet $threads
  */
 trait AuthorFields
 {

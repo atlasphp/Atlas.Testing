@@ -10,6 +10,7 @@ namespace Atlas\Testing\DataSource\Bidibar;
  * @property mixed $bidibar_id INTEGER
  * @property mixed $bidifoo_id INTEGER
  * @property mixed $name VARCHAR(10)
+ * @property null|false|\Atlas\Testing\DataSource\Bidifoo\BidifooRecord $bidifoo
  */
 trait BidibarFields
 {

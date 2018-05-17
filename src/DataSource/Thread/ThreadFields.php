@@ -11,6 +11,10 @@ namespace Atlas\Testing\DataSource\Thread;
  * @property mixed $author_id INTEGER NOT NULL
  * @property mixed $subject VARCHAR(255) NOT NULL
  * @property mixed $body TEXT NOT NULL
+ * @property null|false|\Atlas\Testing\DataSource\Author\AuthorRecord $author
+ * @property null|false|\Atlas\Testing\DataSource\Summary\SummaryRecord $summary
+ * @property null|\Atlas\Testing\DataSource\Reply\ReplyRecordSet $replies
+ * @property null|\Atlas\Testing\DataSource\Tagging\TaggingRecordSet $taggings
  */
 trait ThreadFields
 {

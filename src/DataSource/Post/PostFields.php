@@ -10,6 +10,7 @@ namespace Atlas\Testing\DataSource\Post;
  * @property mixed $post_id INTEGER
  * @property mixed $subj VARCHAR(255)
  * @property mixed $body TEXT
+ * @property null|\Atlas\Testing\DataSource\Comment\CommentRecordSet $comments
  */
 trait PostFields
 {

@@ -10,6 +10,7 @@ namespace Atlas\Testing\DataSource\Video;
  * @property mixed $video_id INTEGER
  * @property mixed $title VARCHAR(255)
  * @property mixed $url VARCHAR(255)
+ * @property null|\Atlas\Testing\DataSource\Comment\CommentRecordSet $comments
  */
 trait VideoFields
 {

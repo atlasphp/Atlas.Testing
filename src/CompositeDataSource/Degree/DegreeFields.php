@@ -10,6 +10,7 @@ namespace Atlas\Testing\CompositeDataSource\Degree;
  * @property mixed $degree_type CHAR(2)
  * @property mixed $degree_subject CHAR(4)
  * @property mixed $title VARCHAR(50)
+ * @property null|\Atlas\Testing\CompositeDataSource\Student\StudentRecordSet $students
  */
 trait DegreeFields
 {

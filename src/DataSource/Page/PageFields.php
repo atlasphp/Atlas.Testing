@@ -10,6 +10,7 @@ namespace Atlas\Testing\DataSource\Page;
  * @property mixed $page_id INTEGER
  * @property mixed $title VARCHAR(255)
  * @property mixed $body TEXT
+ * @property null|\Atlas\Testing\DataSource\Comment\CommentRecordSet $comments
  */
 trait PageFields
 {

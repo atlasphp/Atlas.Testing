@@ -13,6 +13,8 @@ namespace Atlas\Testing\CompositeDataSource\Enrollment;
  * @property mixed $course_number INT
  * @property mixed $grade INT
  * @property mixed $points INT
+ * @property null|false|\Atlas\Testing\CompositeDataSource\Course\CourseRecord $course
+ * @property null|false|\Atlas\Testing\CompositeDataSource\Student\StudentRecord $student
  */
 trait EnrollmentFields
 {

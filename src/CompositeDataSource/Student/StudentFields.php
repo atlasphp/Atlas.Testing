@@ -11,6 +11,10 @@ namespace Atlas\Testing\CompositeDataSource\Student;
  * @property mixed $student_ln VARCHAR(10)
  * @property mixed $degree_type CHAR(2)
  * @property mixed $degree_subject CHAR(4)
+ * @property null|false|\Atlas\Testing\CompositeDataSource\Gpa\GpaRecord $gpa
+ * @property null|false|\Atlas\Testing\CompositeDataSource\Degree\DegreeRecord $degree
+ * @property null|\Atlas\Testing\CompositeDataSource\Enrollment\EnrollmentRecordSet $enrollments
+ * @property null|\Atlas\Testing\CompositeDataSource\Enrollment\EnrollmentRecordSet $engl_enrollments
  */
 trait StudentFields
 {

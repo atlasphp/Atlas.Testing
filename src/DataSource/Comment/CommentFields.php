@@ -11,6 +11,7 @@ namespace Atlas\Testing\DataSource\Comment;
  * @property mixed $related_type VARCHAR(255)
  * @property mixed $related_id INTEGER
  * @property mixed $body TEXT
+ * @property null|false|\Atlas\Mapper\Record $commentable (variant)
  */
 trait CommentFields
 {

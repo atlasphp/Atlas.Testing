@@ -11,6 +11,7 @@ namespace Atlas\Testing\DataSource\Reply;
  * @property mixed $thread_id INTEGER NOT NULL
  * @property mixed $author_id INTEGER NOT NULL
  * @property mixed $body TEXT
+ * @property null|false|\Atlas\Testing\DataSource\Author\AuthorRecord $author
  */
 trait ReplyFields
 {
