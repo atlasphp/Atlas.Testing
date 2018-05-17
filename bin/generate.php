@@ -16,7 +16,7 @@ $dataSource = function () {
     unset($connection);
 
     $dir = dirname(__DIR__) . '/src/DataSource';
-    if (! is_dir()) {
+    if (! is_dir($dir)) {
         mkdir($dir);
     }
 
@@ -47,7 +47,7 @@ $compositeDataSource = function () {
     unset($connection);
 
     $dir = dirname(__DIR__) . '/src/CompositeDataSource';
-    if (! is_dir()) {
+    if (! is_dir($dir)) {
         mkdir($dir);
     }
 
