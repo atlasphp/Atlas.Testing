@@ -228,8 +228,8 @@ class DataSourceFixture
     {
         $this->connection->query("CREATE TABLE taggings (
             tagging_id INTEGER PRIMARY KEY AUTOINCREMENT,
-            thread_id INTEGER NOT NULL,
-            tag_id INTEGER NOT NULL
+            thread_id INTEGER,
+            tag_id INTEGER
         )");
 
         // add 3 tags to each thread except thread #3

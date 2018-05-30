@@ -10,8 +10,8 @@ use Atlas\Table\Row;
 
 /**
  * @property mixed $tagging_id INTEGER
- * @property mixed $thread_id INTEGER NOT NULL
- * @property mixed $tag_id INTEGER NOT NULL
+ * @property mixed $thread_id INTEGER
+ * @property mixed $tag_id INTEGER
  */
 class TaggingRow extends Row
 {

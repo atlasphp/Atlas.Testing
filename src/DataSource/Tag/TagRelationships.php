@@ -8,6 +8,7 @@ class TagRelationships extends MapperRelationships
 {
     protected function define()
     {
-        $this->oneToMany('taggings', Tagging::CLASS);
+        $this->oneToMany('taggings', Tagging::CLASS)
+            ->onDeleteCascade();
     }
 }
