@@ -17,6 +17,8 @@ use Atlas\Table\Table;
  */
 class EnrollmentTable extends Table
 {
+    const DRIVER = 'sqlite';
+
     const NAME = 'enrollments';
 
     const COLUMNS = [
@@ -29,6 +31,7 @@ class EnrollmentTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => true,
+            'options' => null,
         ],
         'student_ln' => [
             'name' => 'student_ln',
@@ -39,6 +42,7 @@ class EnrollmentTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => true,
+            'options' => null,
         ],
         'course_subject' => [
             'name' => 'course_subject',
@@ -49,6 +53,7 @@ class EnrollmentTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => true,
+            'options' => null,
         ],
         'course_number' => [
             'name' => 'course_number',
@@ -59,6 +64,7 @@ class EnrollmentTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => true,
+            'options' => null,
         ],
         'grade' => [
             'name' => 'grade',
@@ -69,6 +75,7 @@ class EnrollmentTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => false,
+            'options' => null,
         ],
         'points' => [
             'name' => 'points',
@@ -79,6 +86,7 @@ class EnrollmentTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => false,
+            'options' => null,
         ],
     ];
 

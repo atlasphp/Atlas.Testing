@@ -17,6 +17,8 @@ use Atlas\Table\Table;
  */
 class BidifooTable extends Table
 {
+    const DRIVER = 'sqlite';
+
     const NAME = 'bidifoos';
 
     const COLUMNS = [
@@ -29,6 +31,7 @@ class BidifooTable extends Table
             'default' => null,
             'autoinc' => true,
             'primary' => true,
+            'options' => null,
         ],
         'bidibar_id' => [
             'name' => 'bidibar_id',
@@ -39,6 +42,7 @@ class BidifooTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => false,
+            'options' => null,
         ],
         'name' => [
             'name' => 'name',
@@ -49,6 +53,7 @@ class BidifooTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => false,
+            'options' => null,
         ],
     ];
 

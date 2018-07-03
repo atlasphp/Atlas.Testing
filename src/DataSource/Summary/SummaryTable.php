@@ -17,6 +17,8 @@ use Atlas\Table\Table;
  */
 class SummaryTable extends Table
 {
+    const DRIVER = 'sqlite';
+
     const NAME = 'summaries';
 
     const COLUMNS = [
@@ -29,6 +31,7 @@ class SummaryTable extends Table
             'default' => null,
             'autoinc' => true,
             'primary' => true,
+            'options' => null,
         ],
         'thread_id' => [
             'name' => 'thread_id',
@@ -39,6 +42,7 @@ class SummaryTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => false,
+            'options' => null,
         ],
         'reply_count' => [
             'name' => 'reply_count',
@@ -49,6 +53,7 @@ class SummaryTable extends Table
             'default' => '0',
             'autoinc' => false,
             'primary' => false,
+            'options' => null,
         ],
         'view_count' => [
             'name' => 'view_count',
@@ -59,6 +64,7 @@ class SummaryTable extends Table
             'default' => '0',
             'autoinc' => false,
             'primary' => false,
+            'options' => null,
         ],
     ];
 

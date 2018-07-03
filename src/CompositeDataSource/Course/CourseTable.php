@@ -17,6 +17,8 @@ use Atlas\Table\Table;
  */
 class CourseTable extends Table
 {
+    const DRIVER = 'sqlite';
+
     const NAME = 'courses';
 
     const COLUMNS = [
@@ -29,6 +31,7 @@ class CourseTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => true,
+            'options' => null,
         ],
         'course_number' => [
             'name' => 'course_number',
@@ -39,6 +42,7 @@ class CourseTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => true,
+            'options' => null,
         ],
         'title' => [
             'name' => 'title',
@@ -49,6 +53,7 @@ class CourseTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => false,
+            'options' => null,
         ],
     ];
 

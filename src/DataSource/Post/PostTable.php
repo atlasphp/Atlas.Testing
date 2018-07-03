@@ -17,6 +17,8 @@ use Atlas\Table\Table;
  */
 class PostTable extends Table
 {
+    const DRIVER = 'sqlite';
+
     const NAME = 'posts';
 
     const COLUMNS = [
@@ -29,6 +31,7 @@ class PostTable extends Table
             'default' => null,
             'autoinc' => true,
             'primary' => true,
+            'options' => null,
         ],
         'subj' => [
             'name' => 'subj',
@@ -39,6 +42,7 @@ class PostTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => false,
+            'options' => null,
         ],
         'body' => [
             'name' => 'body',
@@ -49,6 +53,7 @@ class PostTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => false,
+            'options' => null,
         ],
     ];
 

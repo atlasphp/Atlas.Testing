@@ -17,6 +17,8 @@ use Atlas\Table\Table;
  */
 class GpaTable extends Table
 {
+    const DRIVER = 'sqlite';
+
     const NAME = 'gpas';
 
     const COLUMNS = [
@@ -29,6 +31,7 @@ class GpaTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => true,
+            'options' => null,
         ],
         'student_ln' => [
             'name' => 'student_ln',
@@ -39,6 +42,7 @@ class GpaTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => true,
+            'options' => null,
         ],
         'gpa' => [
             'name' => 'gpa',
@@ -49,6 +53,7 @@ class GpaTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => false,
+            'options' => null,
         ],
     ];
 

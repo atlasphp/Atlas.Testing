@@ -17,6 +17,8 @@ use Atlas\Table\Table;
  */
 class ThreadTable extends Table
 {
+    const DRIVER = 'sqlite';
+
     const NAME = 'threads';
 
     const COLUMNS = [
@@ -29,6 +31,7 @@ class ThreadTable extends Table
             'default' => null,
             'autoinc' => true,
             'primary' => true,
+            'options' => null,
         ],
         'author_id' => [
             'name' => 'author_id',
@@ -39,6 +42,7 @@ class ThreadTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => false,
+            'options' => null,
         ],
         'subject' => [
             'name' => 'subject',
@@ -49,6 +53,7 @@ class ThreadTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => false,
+            'options' => null,
         ],
         'body' => [
             'name' => 'body',
@@ -59,6 +64,7 @@ class ThreadTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => false,
+            'options' => null,
         ],
     ];
 

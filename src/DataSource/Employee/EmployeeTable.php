@@ -17,6 +17,8 @@ use Atlas\Table\Table;
  */
 class EmployeeTable extends Table
 {
+    const DRIVER = 'sqlite';
+
     const NAME = 'employee';
 
     const COLUMNS = [
@@ -29,6 +31,7 @@ class EmployeeTable extends Table
             'default' => null,
             'autoinc' => true,
             'primary' => true,
+            'options' => null,
         ],
         'name' => [
             'name' => 'name',
@@ -39,6 +42,7 @@ class EmployeeTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => false,
+            'options' => null,
         ],
         'building' => [
             'name' => 'building',
@@ -49,6 +53,7 @@ class EmployeeTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => false,
+            'options' => null,
         ],
         'floor' => [
             'name' => 'floor',
@@ -59,6 +64,7 @@ class EmployeeTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => false,
+            'options' => null,
         ],
     ];
 

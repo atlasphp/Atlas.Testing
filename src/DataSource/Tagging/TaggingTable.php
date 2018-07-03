@@ -17,6 +17,8 @@ use Atlas\Table\Table;
  */
 class TaggingTable extends Table
 {
+    const DRIVER = 'sqlite';
+
     const NAME = 'taggings';
 
     const COLUMNS = [
@@ -29,6 +31,7 @@ class TaggingTable extends Table
             'default' => null,
             'autoinc' => true,
             'primary' => true,
+            'options' => null,
         ],
         'thread_id' => [
             'name' => 'thread_id',
@@ -39,6 +42,7 @@ class TaggingTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => false,
+            'options' => null,
         ],
         'tag_id' => [
             'name' => 'tag_id',
@@ -49,6 +53,7 @@ class TaggingTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => false,
+            'options' => null,
         ],
     ];
 

@@ -17,6 +17,8 @@ use Atlas\Table\Table;
  */
 class CommentTable extends Table
 {
+    const DRIVER = 'sqlite';
+
     const NAME = 'comments';
 
     const COLUMNS = [
@@ -29,6 +31,7 @@ class CommentTable extends Table
             'default' => null,
             'autoinc' => true,
             'primary' => true,
+            'options' => null,
         ],
         'related_type' => [
             'name' => 'related_type',
@@ -39,6 +42,7 @@ class CommentTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => false,
+            'options' => null,
         ],
         'related_id' => [
             'name' => 'related_id',
@@ -49,6 +53,7 @@ class CommentTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => false,
+            'options' => null,
         ],
         'body' => [
             'name' => 'body',
@@ -59,6 +64,7 @@ class CommentTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => false,
+            'options' => null,
         ],
     ];
 

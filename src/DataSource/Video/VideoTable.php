@@ -17,6 +17,8 @@ use Atlas\Table\Table;
  */
 class VideoTable extends Table
 {
+    const DRIVER = 'sqlite';
+
     const NAME = 'videos';
 
     const COLUMNS = [
@@ -29,6 +31,7 @@ class VideoTable extends Table
             'default' => null,
             'autoinc' => true,
             'primary' => true,
+            'options' => null,
         ],
         'title' => [
             'name' => 'title',
@@ -39,6 +42,7 @@ class VideoTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => false,
+            'options' => null,
         ],
         'url' => [
             'name' => 'url',
@@ -49,6 +53,7 @@ class VideoTable extends Table
             'default' => null,
             'autoinc' => false,
             'primary' => false,
+            'options' => null,
         ],
     ];
 
