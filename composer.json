@@ -19,8 +19,7 @@
         }
     },
     "require-dev": {
-        "atlas/cli": "2.x@beta",
+        "atlas/cli": "~2.0",
         "pds/skeleton": "~1.0"
-    },
-    "minimum-stability": "beta"
+    }
 }

@@ -1,3 +1,5 @@
 # CHANGELOG
 
-No releases yet.
+## 1.0.0
+
+First stable release.
