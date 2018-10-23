@@ -5,6 +5,7 @@ use Atlas\Mapper\MapperRelationships;
 use Atlas\Testing\DataSource\Author\Author;
 use Atlas\Testing\DataSource\Summary\Summary;
 use Atlas\Testing\DataSource\Reply\Reply;
+use Atlas\Testing\DataSource\Tag\Tag;
 use Atlas\Testing\DataSource\Tagging\Tagging;
 
 class ThreadRelationships extends MapperRelationships
@@ -21,5 +22,7 @@ class ThreadRelationships extends MapperRelationships
 
         $this->oneToMany('taggings', Tagging::CLASS)
             ->onDeleteSetNull();
+
+        $this->manyToMany('tags', Tag::CLASS, 'taggings');
     }
 }
