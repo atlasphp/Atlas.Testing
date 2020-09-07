@@ -35,6 +35,8 @@ class DataSourceFixture
         $this->bidifoos();
         $this->bidibars();
 
+        $this->nopkeys();
+
         // return the connection used
         return $this->connection;
     }
@@ -294,5 +296,13 @@ class DataSourceFixture
         )");
 
         $this->connection->perform("INSERT INTO bidibars (name) VALUES ('prebar')");
+    }
+
+    public function nopkeys()
+    {
+        $this->connection->query("CREATE TABLE nopkeys (
+            name VARCHAR(255),
+            email VARCHAR(255)
+        )");
     }
 }

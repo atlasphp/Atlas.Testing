@@ -50,7 +50,7 @@ class SummaryTable extends Table
             'size' => null,
             'scale' => null,
             'notnull' => true,
-            'default' => '0',
+            'default' => 0,
             'autoinc' => false,
             'primary' => false,
             'options' => null,
@@ -61,7 +61,7 @@ class SummaryTable extends Table
             'size' => null,
             'scale' => null,
             'notnull' => true,
-            'default' => '0',
+            'default' => 0,
             'autoinc' => false,
             'primary' => false,
             'options' => null,
@@ -78,8 +78,8 @@ class SummaryTable extends Table
     const COLUMN_DEFAULTS = [
         'summary_id' => null,
         'thread_id' => null,
-        'reply_count' => '0',
-        'view_count' => '0',
+        'reply_count' => 0,
+        'view_count' => 0,
     ];
 
     const PRIMARY_KEY = [

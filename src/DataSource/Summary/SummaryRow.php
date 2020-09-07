@@ -19,7 +19,7 @@ class SummaryRow extends Row
     protected $cols = [
         'summary_id' => null,
         'thread_id' => null,
-        'reply_count' => '0',
-        'view_count' => '0',
+        'reply_count' => 0,
+        'view_count' => 0,
     ];
 }

@@ -1,4 +1,4 @@
 /vendor
 /composer.lock
-/atlas-testing.sq3
-/atlas-testing.php
+/atlas-config.php
+/atlas-sqlite.sq3
