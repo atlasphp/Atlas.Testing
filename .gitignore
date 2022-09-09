@@ -1,4 +1,4 @@
 /vendor
 /composer.lock
-/atlas-config.php
-/atlas-sqlite.sq3
+/tmp/*
+!/tmp/.gitkeep
