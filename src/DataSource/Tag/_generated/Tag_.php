@@ -24,9 +24,9 @@ use Atlas\Testing\DataSource\Tag\TagTable;
  * @method TagSelect select(array $whereEquals = [])
  * @method TagRecord newRecord(array $fields = [])
  * @method TagRecord[] newRecords(array $fieldSets)
- * @method TagRecordSet newRecordSet(array $records = [])
+ * @method TagRecordSet newRecordSet(TagRecord[] $records = [])
  * @method TagRecord turnRowIntoRecord(TagRow $row, array $loadRelated = [])
- * @method TagRecord[] turnRowsIntoRecords(array $rows, array $loadRelated = [])
+ * @method TagRecord[] turnRowsIntoRecords(TagRow[] $rows, array $loadRelated = [])
  */
 abstract class Tag_ extends Mapper
 {

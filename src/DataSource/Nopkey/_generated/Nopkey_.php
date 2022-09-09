@@ -24,9 +24,9 @@ use Atlas\Testing\DataSource\Nopkey\NopkeyTable;
  * @method NopkeySelect select(array $whereEquals = [])
  * @method NopkeyRecord newRecord(array $fields = [])
  * @method NopkeyRecord[] newRecords(array $fieldSets)
- * @method NopkeyRecordSet newRecordSet(array $records = [])
+ * @method NopkeyRecordSet newRecordSet(NopkeyRecord[] $records = [])
  * @method NopkeyRecord turnRowIntoRecord(NopkeyRow $row, array $loadRelated = [])
- * @method NopkeyRecord[] turnRowsIntoRecords(array $rows, array $loadRelated = [])
+ * @method NopkeyRecord[] turnRowsIntoRecords(NopkeyRow[] $rows, array $loadRelated = [])
  */
 abstract class Nopkey_ extends Mapper
 {

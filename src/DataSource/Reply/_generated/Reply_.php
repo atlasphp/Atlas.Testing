@@ -24,9 +24,9 @@ use Atlas\Testing\DataSource\Reply\ReplyTable;
  * @method ReplySelect select(array $whereEquals = [])
  * @method ReplyRecord newRecord(array $fields = [])
  * @method ReplyRecord[] newRecords(array $fieldSets)
- * @method ReplyRecordSet newRecordSet(array $records = [])
+ * @method ReplyRecordSet newRecordSet(ReplyRecord[] $records = [])
  * @method ReplyRecord turnRowIntoRecord(ReplyRow $row, array $loadRelated = [])
- * @method ReplyRecord[] turnRowsIntoRecords(array $rows, array $loadRelated = [])
+ * @method ReplyRecord[] turnRowsIntoRecords(ReplyRow[] $rows, array $loadRelated = [])
  */
 abstract class Reply_ extends Mapper
 {

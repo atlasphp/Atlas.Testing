@@ -24,9 +24,9 @@ use Atlas\Testing\CompositeDataSource\Course\CourseTable;
  * @method CourseSelect select(array $whereEquals = [])
  * @method CourseRecord newRecord(array $fields = [])
  * @method CourseRecord[] newRecords(array $fieldSets)
- * @method CourseRecordSet newRecordSet(array $records = [])
+ * @method CourseRecordSet newRecordSet(CourseRecord[] $records = [])
  * @method CourseRecord turnRowIntoRecord(CourseRow $row, array $loadRelated = [])
- * @method CourseRecord[] turnRowsIntoRecords(array $rows, array $loadRelated = [])
+ * @method CourseRecord[] turnRowsIntoRecords(CourseRow[] $rows, array $loadRelated = [])
  */
 abstract class Course_ extends Mapper
 {

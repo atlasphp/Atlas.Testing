@@ -24,9 +24,9 @@ use Atlas\Testing\DataSource\Page\PageTable;
  * @method PageSelect select(array $whereEquals = [])
  * @method PageRecord newRecord(array $fields = [])
  * @method PageRecord[] newRecords(array $fieldSets)
- * @method PageRecordSet newRecordSet(array $records = [])
+ * @method PageRecordSet newRecordSet(PageRecord[] $records = [])
  * @method PageRecord turnRowIntoRecord(PageRow $row, array $loadRelated = [])
- * @method PageRecord[] turnRowsIntoRecords(array $rows, array $loadRelated = [])
+ * @method PageRecord[] turnRowsIntoRecords(PageRow[] $rows, array $loadRelated = [])
  */
 abstract class Page_ extends Mapper
 {

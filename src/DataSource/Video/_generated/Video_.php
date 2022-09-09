@@ -24,9 +24,9 @@ use Atlas\Testing\DataSource\Video\VideoTable;
  * @method VideoSelect select(array $whereEquals = [])
  * @method VideoRecord newRecord(array $fields = [])
  * @method VideoRecord[] newRecords(array $fieldSets)
- * @method VideoRecordSet newRecordSet(array $records = [])
+ * @method VideoRecordSet newRecordSet(VideoRecord[] $records = [])
  * @method VideoRecord turnRowIntoRecord(VideoRow $row, array $loadRelated = [])
- * @method VideoRecord[] turnRowsIntoRecords(array $rows, array $loadRelated = [])
+ * @method VideoRecord[] turnRowsIntoRecords(VideoRow[] $rows, array $loadRelated = [])
  */
 abstract class Video_ extends Mapper
 {

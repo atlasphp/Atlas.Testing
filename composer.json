@@ -20,6 +20,7 @@
     },
     "require-dev": {
         "atlas/cli": "dev-3.x-wip",
+        "atlas/mapper": "dev-2.x-wip",
         "pds/skeleton": "^1.0"
     },
     "minimum-stability": "dev"

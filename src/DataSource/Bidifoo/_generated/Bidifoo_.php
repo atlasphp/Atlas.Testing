@@ -24,9 +24,9 @@ use Atlas\Testing\DataSource\Bidifoo\BidifooTable;
  * @method BidifooSelect select(array $whereEquals = [])
  * @method BidifooRecord newRecord(array $fields = [])
  * @method BidifooRecord[] newRecords(array $fieldSets)
- * @method BidifooRecordSet newRecordSet(array $records = [])
+ * @method BidifooRecordSet newRecordSet(BidifooRecord[] $records = [])
  * @method BidifooRecord turnRowIntoRecord(BidifooRow $row, array $loadRelated = [])
- * @method BidifooRecord[] turnRowsIntoRecords(array $rows, array $loadRelated = [])
+ * @method BidifooRecord[] turnRowsIntoRecords(BidifooRow[] $rows, array $loadRelated = [])
  */
 abstract class Bidifoo_ extends Mapper
 {

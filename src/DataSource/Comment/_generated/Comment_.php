@@ -24,9 +24,9 @@ use Atlas\Testing\DataSource\Comment\CommentTable;
  * @method CommentSelect select(array $whereEquals = [])
  * @method CommentRecord newRecord(array $fields = [])
  * @method CommentRecord[] newRecords(array $fieldSets)
- * @method CommentRecordSet newRecordSet(array $records = [])
+ * @method CommentRecordSet newRecordSet(CommentRecord[] $records = [])
  * @method CommentRecord turnRowIntoRecord(CommentRow $row, array $loadRelated = [])
- * @method CommentRecord[] turnRowsIntoRecords(array $rows, array $loadRelated = [])
+ * @method CommentRecord[] turnRowsIntoRecords(CommentRow[] $rows, array $loadRelated = [])
  */
 abstract class Comment_ extends Mapper
 {

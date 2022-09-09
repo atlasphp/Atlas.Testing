@@ -24,9 +24,9 @@ use Atlas\Testing\DataSource\Summary\SummaryTable;
  * @method SummarySelect select(array $whereEquals = [])
  * @method SummaryRecord newRecord(array $fields = [])
  * @method SummaryRecord[] newRecords(array $fieldSets)
- * @method SummaryRecordSet newRecordSet(array $records = [])
+ * @method SummaryRecordSet newRecordSet(SummaryRecord[] $records = [])
  * @method SummaryRecord turnRowIntoRecord(SummaryRow $row, array $loadRelated = [])
- * @method SummaryRecord[] turnRowsIntoRecords(array $rows, array $loadRelated = [])
+ * @method SummaryRecord[] turnRowsIntoRecords(SummaryRow[] $rows, array $loadRelated = [])
  */
 abstract class Summary_ extends Mapper
 {

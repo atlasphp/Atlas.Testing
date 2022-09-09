@@ -24,9 +24,9 @@ use Atlas\Testing\CompositeDataSource\Student\StudentTable;
  * @method StudentSelect select(array $whereEquals = [])
  * @method StudentRecord newRecord(array $fields = [])
  * @method StudentRecord[] newRecords(array $fieldSets)
- * @method StudentRecordSet newRecordSet(array $records = [])
+ * @method StudentRecordSet newRecordSet(StudentRecord[] $records = [])
  * @method StudentRecord turnRowIntoRecord(StudentRow $row, array $loadRelated = [])
- * @method StudentRecord[] turnRowsIntoRecords(array $rows, array $loadRelated = [])
+ * @method StudentRecord[] turnRowsIntoRecords(StudentRow[] $rows, array $loadRelated = [])
  */
 abstract class Student_ extends Mapper
 {

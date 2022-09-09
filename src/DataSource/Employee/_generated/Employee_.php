@@ -24,9 +24,9 @@ use Atlas\Testing\DataSource\Employee\EmployeeTable;
  * @method EmployeeSelect select(array $whereEquals = [])
  * @method EmployeeRecord newRecord(array $fields = [])
  * @method EmployeeRecord[] newRecords(array $fieldSets)
- * @method EmployeeRecordSet newRecordSet(array $records = [])
+ * @method EmployeeRecordSet newRecordSet(EmployeeRecord[] $records = [])
  * @method EmployeeRecord turnRowIntoRecord(EmployeeRow $row, array $loadRelated = [])
- * @method EmployeeRecord[] turnRowsIntoRecords(array $rows, array $loadRelated = [])
+ * @method EmployeeRecord[] turnRowsIntoRecords(EmployeeRow[] $rows, array $loadRelated = [])
  */
 abstract class Employee_ extends Mapper
 {

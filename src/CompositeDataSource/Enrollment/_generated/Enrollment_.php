@@ -24,9 +24,9 @@ use Atlas\Testing\CompositeDataSource\Enrollment\EnrollmentTable;
  * @method EnrollmentSelect select(array $whereEquals = [])
  * @method EnrollmentRecord newRecord(array $fields = [])
  * @method EnrollmentRecord[] newRecords(array $fieldSets)
- * @method EnrollmentRecordSet newRecordSet(array $records = [])
+ * @method EnrollmentRecordSet newRecordSet(EnrollmentRecord[] $records = [])
  * @method EnrollmentRecord turnRowIntoRecord(EnrollmentRow $row, array $loadRelated = [])
- * @method EnrollmentRecord[] turnRowsIntoRecords(array $rows, array $loadRelated = [])
+ * @method EnrollmentRecord[] turnRowsIntoRecords(EnrollmentRow[] $rows, array $loadRelated = [])
  */
 abstract class Enrollment_ extends Mapper
 {

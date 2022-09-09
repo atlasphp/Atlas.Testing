@@ -24,9 +24,9 @@ use Atlas\Testing\CompositeDataSource\Degree\DegreeTable;
  * @method DegreeSelect select(array $whereEquals = [])
  * @method DegreeRecord newRecord(array $fields = [])
  * @method DegreeRecord[] newRecords(array $fieldSets)
- * @method DegreeRecordSet newRecordSet(array $records = [])
+ * @method DegreeRecordSet newRecordSet(DegreeRecord[] $records = [])
  * @method DegreeRecord turnRowIntoRecord(DegreeRow $row, array $loadRelated = [])
- * @method DegreeRecord[] turnRowsIntoRecords(array $rows, array $loadRelated = [])
+ * @method DegreeRecord[] turnRowsIntoRecords(DegreeRow[] $rows, array $loadRelated = [])
  */
 abstract class Degree_ extends Mapper
 {

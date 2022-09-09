@@ -24,9 +24,9 @@ use Atlas\Testing\CompositeDataSource\Gpa\GpaTable;
  * @method GpaSelect select(array $whereEquals = [])
  * @method GpaRecord newRecord(array $fields = [])
  * @method GpaRecord[] newRecords(array $fieldSets)
- * @method GpaRecordSet newRecordSet(array $records = [])
+ * @method GpaRecordSet newRecordSet(GpaRecord[] $records = [])
  * @method GpaRecord turnRowIntoRecord(GpaRow $row, array $loadRelated = [])
- * @method GpaRecord[] turnRowsIntoRecords(array $rows, array $loadRelated = [])
+ * @method GpaRecord[] turnRowsIntoRecords(GpaRow[] $rows, array $loadRelated = [])
  */
 abstract class Gpa_ extends Mapper
 {

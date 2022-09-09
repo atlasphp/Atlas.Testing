@@ -24,9 +24,9 @@ use Atlas\Testing\DataSource\Post\PostTable;
  * @method PostSelect select(array $whereEquals = [])
  * @method PostRecord newRecord(array $fields = [])
  * @method PostRecord[] newRecords(array $fieldSets)
- * @method PostRecordSet newRecordSet(array $records = [])
+ * @method PostRecordSet newRecordSet(PostRecord[] $records = [])
  * @method PostRecord turnRowIntoRecord(PostRow $row, array $loadRelated = [])
- * @method PostRecord[] turnRowsIntoRecords(array $rows, array $loadRelated = [])
+ * @method PostRecord[] turnRowsIntoRecords(PostRow[] $rows, array $loadRelated = [])
  */
 abstract class Post_ extends Mapper
 {

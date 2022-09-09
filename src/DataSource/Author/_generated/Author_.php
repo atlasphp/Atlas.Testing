@@ -24,9 +24,9 @@ use Atlas\Testing\DataSource\Author\AuthorTable;
  * @method AuthorSelect select(array $whereEquals = [])
  * @method AuthorRecord newRecord(array $fields = [])
  * @method AuthorRecord[] newRecords(array $fieldSets)
- * @method AuthorRecordSet newRecordSet(array $records = [])
+ * @method AuthorRecordSet newRecordSet(AuthorRecord[] $records = [])
  * @method AuthorRecord turnRowIntoRecord(AuthorRow $row, array $loadRelated = [])
- * @method AuthorRecord[] turnRowsIntoRecords(array $rows, array $loadRelated = [])
+ * @method AuthorRecord[] turnRowsIntoRecords(AuthorRow[] $rows, array $loadRelated = [])
  */
 abstract class Author_ extends Mapper
 {

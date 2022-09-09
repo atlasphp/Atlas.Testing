@@ -24,9 +24,9 @@ use Atlas\Testing\DataSource\Bidibar\BidibarTable;
  * @method BidibarSelect select(array $whereEquals = [])
  * @method BidibarRecord newRecord(array $fields = [])
  * @method BidibarRecord[] newRecords(array $fieldSets)
- * @method BidibarRecordSet newRecordSet(array $records = [])
+ * @method BidibarRecordSet newRecordSet(BidibarRecord[] $records = [])
  * @method BidibarRecord turnRowIntoRecord(BidibarRow $row, array $loadRelated = [])
- * @method BidibarRecord[] turnRowsIntoRecords(array $rows, array $loadRelated = [])
+ * @method BidibarRecord[] turnRowsIntoRecords(BidibarRow[] $rows, array $loadRelated = [])
  */
 abstract class Bidibar_ extends Mapper
 {

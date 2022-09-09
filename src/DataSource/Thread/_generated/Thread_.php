@@ -24,9 +24,9 @@ use Atlas\Testing\DataSource\Thread\ThreadTable;
  * @method ThreadSelect select(array $whereEquals = [])
  * @method ThreadRecord newRecord(array $fields = [])
  * @method ThreadRecord[] newRecords(array $fieldSets)
- * @method ThreadRecordSet newRecordSet(array $records = [])
+ * @method ThreadRecordSet newRecordSet(ThreadRecord[] $records = [])
  * @method ThreadRecord turnRowIntoRecord(ThreadRow $row, array $loadRelated = [])
- * @method ThreadRecord[] turnRowsIntoRecords(array $rows, array $loadRelated = [])
+ * @method ThreadRecord[] turnRowsIntoRecords(ThreadRow[] $rows, array $loadRelated = [])
  */
 abstract class Thread_ extends Mapper
 {
