@@ -13,6 +13,10 @@ use Atlas\Mapper\Record;
  * @property mixed $student_ln VARCHAR(10)
  * @property mixed $degree_type CHAR(2)
  * @property mixed $degree_subject CHAR(4)
+ * @property ?\Atlas\Testing\CompositeDataSource\Gpa\GpaRecord $gpa
+ * @property ?\Atlas\Testing\CompositeDataSource\Degree\DegreeRecord $degree
+ * @property \Atlas\Testing\CompositeDataSource\Enrollment\EnrollmentRecordSet $enrollments
+ * @property \Atlas\Testing\CompositeDataSource\Enrollment\EnrollmentRecordSet $engl_enrollments
  * @method \Atlas\Testing\CompositeDataSource\Student\StudentRow getRow()
  */
 abstract class StudentRecord_ extends Record

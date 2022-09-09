@@ -13,6 +13,7 @@ use Atlas\Mapper\Record;
  * @property mixed $related_type VARCHAR(255)
  * @property mixed $related_id INTEGER
  * @property mixed $body TEXT
+ * @property \mixed $commentable
  * @method \Atlas\Testing\DataSource\Comment\CommentRow getRow()
  */
 abstract class CommentRecord_ extends Record

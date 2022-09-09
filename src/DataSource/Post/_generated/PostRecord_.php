@@ -12,6 +12,7 @@ use Atlas\Mapper\Record;
  * @property mixed $post_id INTEGER
  * @property mixed $subj VARCHAR(255)
  * @property mixed $body TEXT
+ * @property \Atlas\Testing\DataSource\Comment\CommentRecordSet $comments
  * @method \Atlas\Testing\DataSource\Post\PostRow getRow()
  */
 abstract class PostRecord_ extends Record

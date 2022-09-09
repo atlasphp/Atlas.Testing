@@ -12,6 +12,7 @@ use Atlas\Mapper\Record;
  * @property mixed $video_id INTEGER
  * @property mixed $title VARCHAR(255)
  * @property mixed $url VARCHAR(255)
+ * @property \Atlas\Testing\DataSource\Comment\CommentRecordSet $comments
  * @method \Atlas\Testing\DataSource\Video\VideoRow getRow()
  */
 abstract class VideoRecord_ extends Record

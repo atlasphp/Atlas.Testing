@@ -12,6 +12,7 @@ use Atlas\Mapper\Record;
  * @property mixed $degree_type CHAR(2)
  * @property mixed $degree_subject CHAR(4)
  * @property mixed $title VARCHAR(50)
+ * @property \Atlas\Testing\CompositeDataSource\Student\StudentRecordSet $students
  * @method \Atlas\Testing\CompositeDataSource\Degree\DegreeRow getRow()
  */
 abstract class DegreeRecord_ extends Record

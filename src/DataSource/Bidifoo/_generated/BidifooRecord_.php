@@ -12,6 +12,7 @@ use Atlas\Mapper\Record;
  * @property mixed $bidifoo_id INTEGER
  * @property mixed $bidibar_id INTEGER
  * @property mixed $name VARCHAR(10)
+ * @property ?\Atlas\Testing\DataSource\Bidibar\BidibarRecord $bidibar
  * @method \Atlas\Testing\DataSource\Bidifoo\BidifooRow getRow()
  */
 abstract class BidifooRecord_ extends Record

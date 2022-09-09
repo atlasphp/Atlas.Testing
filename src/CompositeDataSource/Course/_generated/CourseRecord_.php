@@ -12,6 +12,7 @@ use Atlas\Mapper\Record;
  * @property mixed $course_subject CHAR(4)
  * @property mixed $course_number INT
  * @property mixed $title VARCHAR(20)
+ * @property \Atlas\Testing\CompositeDataSource\Enrollment\EnrollmentRecordSet $enrollments
  * @method \Atlas\Testing\CompositeDataSource\Course\CourseRow getRow()
  */
 abstract class CourseRecord_ extends Record

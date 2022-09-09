@@ -13,6 +13,11 @@ use Atlas\Mapper\Record;
  * @property mixed $author_id INTEGER NOT NULL
  * @property mixed $subject VARCHAR(255) NOT NULL
  * @property mixed $body TEXT NOT NULL
+ * @property ?\Atlas\Testing\DataSource\Author\AuthorRecord $author
+ * @property ?\Atlas\Testing\DataSource\Summary\SummaryRecord $summary
+ * @property \Atlas\Testing\DataSource\Reply\ReplyRecordSet $replies
+ * @property \Atlas\Testing\DataSource\Tagging\TaggingRecordSet $taggings
+ * @property \Atlas\Testing\DataSource\Tag\TagRecordSet $tags
  * @method \Atlas\Testing\DataSource\Thread\ThreadRow getRow()
  */
 abstract class ThreadRecord_ extends Record

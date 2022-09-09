@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace Atlas\Testing\DataSource\Nopkey;
 
-use Atlas\Mapper\Mapper;
+use Atlas\Table\Row;
 
 class Nopkey extends _generated\Nopkey_
 {

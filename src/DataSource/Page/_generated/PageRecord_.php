@@ -12,6 +12,7 @@ use Atlas\Mapper\Record;
  * @property mixed $page_id INTEGER
  * @property mixed $title VARCHAR(255)
  * @property mixed $body TEXT
+ * @property \Atlas\Testing\DataSource\Comment\CommentRecordSet $comments
  * @method \Atlas\Testing\DataSource\Page\PageRow getRow()
  */
 abstract class PageRecord_ extends Record
