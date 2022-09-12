@@ -48,6 +48,11 @@ abstract class TagTable_ extends Table
         ],
     ];
 
+    public const COLUMN_NAMES = [
+        'tag_id',
+        'name',
+    ];
+
     public const PRIMARY_KEY = [
         'tag_id',    ];
 

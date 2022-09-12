@@ -48,6 +48,11 @@ abstract class AuthorTable_ extends Table
         ],
     ];
 
+    public const COLUMN_NAMES = [
+        'author_id',
+        'name',
+    ];
+
     public const PRIMARY_KEY = [
         'author_id',    ];
 

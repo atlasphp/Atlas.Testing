@@ -70,6 +70,13 @@ abstract class CommentTable_ extends Table
         ],
     ];
 
+    public const COLUMN_NAMES = [
+        'comment_id',
+        'related_type',
+        'related_id',
+        'body',
+    ];
+
     public const PRIMARY_KEY = [
         'comment_id',    ];
 

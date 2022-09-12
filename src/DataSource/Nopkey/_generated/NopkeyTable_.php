@@ -48,6 +48,11 @@ abstract class NopkeyTable_ extends Table
         ],
     ];
 
+    public const COLUMN_NAMES = [
+        'name',
+        'email',
+    ];
+
     public const PRIMARY_KEY = [    ];
 
     public const COMPOSITE_KEY = false;

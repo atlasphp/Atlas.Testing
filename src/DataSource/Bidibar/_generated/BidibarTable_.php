@@ -59,6 +59,12 @@ abstract class BidibarTable_ extends Table
         ],
     ];
 
+    public const COLUMN_NAMES = [
+        'bidibar_id',
+        'bidifoo_id',
+        'name',
+    ];
+
     public const PRIMARY_KEY = [
         'bidibar_id',    ];
 

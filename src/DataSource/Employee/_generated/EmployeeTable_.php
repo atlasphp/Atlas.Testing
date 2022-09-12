@@ -70,6 +70,13 @@ abstract class EmployeeTable_ extends Table
         ],
     ];
 
+    public const COLUMN_NAMES = [
+        'id',
+        'name',
+        'building',
+        'floor',
+    ];
+
     public const PRIMARY_KEY = [
         'id',    ];
 

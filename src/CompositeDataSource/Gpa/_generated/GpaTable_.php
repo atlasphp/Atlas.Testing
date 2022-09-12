@@ -59,6 +59,12 @@ abstract class GpaTable_ extends Table
         ],
     ];
 
+    public const COLUMN_NAMES = [
+        'student_fn',
+        'student_ln',
+        'gpa',
+    ];
+
     public const PRIMARY_KEY = [
         'student_fn',
         'student_ln',    ];

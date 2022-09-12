@@ -59,6 +59,12 @@ abstract class TaggingTable_ extends Table
         ],
     ];
 
+    public const COLUMN_NAMES = [
+        'tagging_id',
+        'thread_id',
+        'tag_id',
+    ];
+
     public const PRIMARY_KEY = [
         'tagging_id',    ];
 

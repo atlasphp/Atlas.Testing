@@ -59,6 +59,12 @@ abstract class VideoTable_ extends Table
         ],
     ];
 
+    public const COLUMN_NAMES = [
+        'video_id',
+        'title',
+        'url',
+    ];
+
     public const PRIMARY_KEY = [
         'video_id',    ];
 

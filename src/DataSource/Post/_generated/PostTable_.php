@@ -59,6 +59,12 @@ abstract class PostTable_ extends Table
         ],
     ];
 
+    public const COLUMN_NAMES = [
+        'post_id',
+        'subj',
+        'body',
+    ];
+
     public const PRIMARY_KEY = [
         'post_id',    ];
 

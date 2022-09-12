@@ -70,6 +70,13 @@ abstract class ThreadTable_ extends Table
         ],
     ];
 
+    public const COLUMN_NAMES = [
+        'thread_id',
+        'author_id',
+        'subject',
+        'body',
+    ];
+
     public const PRIMARY_KEY = [
         'thread_id',    ];
 

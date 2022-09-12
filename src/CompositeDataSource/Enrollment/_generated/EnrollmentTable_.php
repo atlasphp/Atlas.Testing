@@ -92,6 +92,15 @@ abstract class EnrollmentTable_ extends Table
         ],
     ];
 
+    public const COLUMN_NAMES = [
+        'student_fn',
+        'student_ln',
+        'course_subject',
+        'course_number',
+        'grade',
+        'points',
+    ];
+
     public const PRIMARY_KEY = [
         'student_fn',
         'student_ln',

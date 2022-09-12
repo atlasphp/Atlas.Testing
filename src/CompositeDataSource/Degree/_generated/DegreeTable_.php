@@ -59,6 +59,12 @@ abstract class DegreeTable_ extends Table
         ],
     ];
 
+    public const COLUMN_NAMES = [
+        'degree_type',
+        'degree_subject',
+        'title',
+    ];
+
     public const PRIMARY_KEY = [
         'degree_type',
         'degree_subject',    ];

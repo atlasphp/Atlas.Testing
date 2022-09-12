@@ -70,6 +70,13 @@ abstract class ReplyTable_ extends Table
         ],
     ];
 
+    public const COLUMN_NAMES = [
+        'reply_id',
+        'thread_id',
+        'author_id',
+        'body',
+    ];
+
     public const PRIMARY_KEY = [
         'reply_id',    ];
 

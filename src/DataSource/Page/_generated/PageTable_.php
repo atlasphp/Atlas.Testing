@@ -59,6 +59,12 @@ abstract class PageTable_ extends Table
         ],
     ];
 
+    public const COLUMN_NAMES = [
+        'page_id',
+        'title',
+        'body',
+    ];
+
     public const PRIMARY_KEY = [
         'page_id',    ];
 

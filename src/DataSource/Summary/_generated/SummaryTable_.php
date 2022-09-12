@@ -70,6 +70,13 @@ abstract class SummaryTable_ extends Table
         ],
     ];
 
+    public const COLUMN_NAMES = [
+        'summary_id',
+        'thread_id',
+        'reply_count',
+        'view_count',
+    ];
+
     public const PRIMARY_KEY = [
         'summary_id',    ];
 

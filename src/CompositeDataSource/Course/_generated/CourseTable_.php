@@ -59,6 +59,12 @@ abstract class CourseTable_ extends Table
         ],
     ];
 
+    public const COLUMN_NAMES = [
+        'course_subject',
+        'course_number',
+        'title',
+    ];
+
     public const PRIMARY_KEY = [
         'course_subject',
         'course_number',    ];
