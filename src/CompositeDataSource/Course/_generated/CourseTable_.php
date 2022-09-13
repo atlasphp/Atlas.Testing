@@ -67,7 +67,8 @@ abstract class CourseTable_ extends Table
 
     public const PRIMARY_KEY = [
         'course_subject',
-        'course_number',    ];
+        'course_number',
+    ];
 
     public const COMPOSITE_KEY = true;
 

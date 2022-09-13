@@ -78,7 +78,8 @@ abstract class CommentTable_ extends Table
     ];
 
     public const PRIMARY_KEY = [
-        'comment_id',    ];
+        'comment_id',
+    ];
 
     public const COMPOSITE_KEY = false;
 

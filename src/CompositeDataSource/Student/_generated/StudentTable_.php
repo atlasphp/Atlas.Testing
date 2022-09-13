@@ -79,7 +79,8 @@ abstract class StudentTable_ extends Table
 
     public const PRIMARY_KEY = [
         'student_fn',
-        'student_ln',    ];
+        'student_ln',
+    ];
 
     public const COMPOSITE_KEY = true;
 

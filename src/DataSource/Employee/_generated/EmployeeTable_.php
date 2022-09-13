@@ -78,7 +78,8 @@ abstract class EmployeeTable_ extends Table
     ];
 
     public const PRIMARY_KEY = [
-        'id',    ];
+        'id',
+    ];
 
     public const COMPOSITE_KEY = false;
 

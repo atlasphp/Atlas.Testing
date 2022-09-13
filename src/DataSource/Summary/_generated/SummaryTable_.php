@@ -78,7 +78,8 @@ abstract class SummaryTable_ extends Table
     ];
 
     public const PRIMARY_KEY = [
-        'summary_id',    ];
+        'summary_id',
+    ];
 
     public const COMPOSITE_KEY = false;
 

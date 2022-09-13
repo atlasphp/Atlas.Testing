@@ -78,7 +78,8 @@ abstract class ReplyTable_ extends Table
     ];
 
     public const PRIMARY_KEY = [
-        'reply_id',    ];
+        'reply_id',
+    ];
 
     public const COMPOSITE_KEY = false;
 

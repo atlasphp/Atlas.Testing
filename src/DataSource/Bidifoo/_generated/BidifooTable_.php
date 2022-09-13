@@ -66,7 +66,8 @@ abstract class BidifooTable_ extends Table
     ];
 
     public const PRIMARY_KEY = [
-        'bidifoo_id',    ];
+        'bidifoo_id',
+    ];
 
     public const COMPOSITE_KEY = false;
 

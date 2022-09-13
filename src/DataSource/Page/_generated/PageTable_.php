@@ -66,7 +66,8 @@ abstract class PageTable_ extends Table
     ];
 
     public const PRIMARY_KEY = [
-        'page_id',    ];
+        'page_id',
+    ];
 
     public const COMPOSITE_KEY = false;
 

@@ -78,7 +78,8 @@ abstract class ThreadTable_ extends Table
     ];
 
     public const PRIMARY_KEY = [
-        'thread_id',    ];
+        'thread_id',
+    ];
 
     public const COMPOSITE_KEY = false;
 

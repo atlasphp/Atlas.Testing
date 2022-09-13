@@ -66,7 +66,8 @@ abstract class BidibarTable_ extends Table
     ];
 
     public const PRIMARY_KEY = [
-        'bidibar_id',    ];
+        'bidibar_id',
+    ];
 
     public const COMPOSITE_KEY = false;
 

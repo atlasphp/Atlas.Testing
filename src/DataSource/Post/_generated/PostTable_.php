@@ -66,7 +66,8 @@ abstract class PostTable_ extends Table
     ];
 
     public const PRIMARY_KEY = [
-        'post_id',    ];
+        'post_id',
+    ];
 
     public const COMPOSITE_KEY = false;
 

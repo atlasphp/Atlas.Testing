@@ -66,7 +66,8 @@ abstract class TaggingTable_ extends Table
     ];
 
     public const PRIMARY_KEY = [
-        'tagging_id',    ];
+        'tagging_id',
+    ];
 
     public const COMPOSITE_KEY = false;
 

@@ -67,7 +67,8 @@ abstract class DegreeTable_ extends Table
 
     public const PRIMARY_KEY = [
         'degree_type',
-        'degree_subject',    ];
+        'degree_subject',
+    ];
 
     public const COMPOSITE_KEY = true;
 

@@ -66,7 +66,8 @@ abstract class VideoTable_ extends Table
     ];
 
     public const PRIMARY_KEY = [
-        'video_id',    ];
+        'video_id',
+    ];
 
     public const COMPOSITE_KEY = false;
 

@@ -54,7 +54,8 @@ abstract class TagTable_ extends Table
     ];
 
     public const PRIMARY_KEY = [
-        'tag_id',    ];
+        'tag_id',
+    ];
 
     public const COMPOSITE_KEY = false;
 

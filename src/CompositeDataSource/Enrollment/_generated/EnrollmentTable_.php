@@ -105,7 +105,8 @@ abstract class EnrollmentTable_ extends Table
         'student_fn',
         'student_ln',
         'course_subject',
-        'course_number',    ];
+        'course_number',
+    ];
 
     public const COMPOSITE_KEY = true;
 

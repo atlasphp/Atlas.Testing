@@ -53,7 +53,8 @@ abstract class NopkeyTable_ extends Table
         'email',
     ];
 
-    public const PRIMARY_KEY = [    ];
+    public const PRIMARY_KEY = [
+    ];
 
     public const COMPOSITE_KEY = false;
 
